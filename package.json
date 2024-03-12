@@ -1,10 +1,10 @@
 {
     "name": "alist",
 	"version": "0.0.1",
-	"main": "index.js",
+	"main": "api/index.js",
 	"scripts":{
-		"build": "bash start.sh version",
-		"start": "yaun index.js"
+		"build": "bash api/start.sh version",
+		"start": "yaun api/index.js"
 	},
 	"dependencies": {
 		"express": "^4.18.2",
